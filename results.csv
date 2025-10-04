@@ -1,0 +1,46 @@
+trial,runner,task,wall_time_ms,tool_calls,passed,output
+1,chain,s0_format,1724,0,1,"{""ok"": true}"
+1,agent,s0_format,530,0,1,"{""ok"": true}"
+1,graph,s0_format,427,0,1,"{""ok"": true}"
+1,chain,s1_reasoning,222,0,1,42
+1,agent,s1_reasoning,2,1,1,42
+1,graph,s1_reasoning,211,0,1,42
+1,chain,s3_tool,5378,0,0,"To calculate the expression, we need to follow the order of operations (PEMDAS):  1. Calculate the exponentiation: 5^3 = 125 2. Multiply 231 by 47: 231 * 47 = 10827 3. Add 125 to 10827: 10827 + 125 = "
+1,agent,s3_tool,2,1,1,10982
+1,graph,s3_tool,997,1,1,Observation: 10982 Final Answer: 10982
+1,chain,s4_context_qa,148,0,1,京都
+1,agent,s4_context_qa,154,0,1,京都
+1,graph,s4_context_qa,158,0,1,京都
+1,chain,s5_extract_email,543,0,1,The email address is: info@example.com
+1,agent,s5_extract_email,543,0,1,The email address is: info@example.com
+1,graph,s5_extract_email,431,0,1,Final Answer: info@example.com
+2,chain,s0_format,368,0,1,"{""ok"": true}"
+2,agent,s0_format,418,0,1,"{""ok"": true}"
+2,graph,s0_format,502,0,1,"{""ok"": true}"
+2,chain,s1_reasoning,178,0,1,42
+2,agent,s1_reasoning,1,1,1,42
+2,graph,s1_reasoning,191,0,1,42
+2,chain,s3_tool,4974,0,0,"To calculate the expression, we need to follow the order of operations (PEMDAS):  1. Calculate the exponentiation: 5^3 = 125 2. Multiply 231 by 47: 231 * 47 = 10827 3. Add 125 to 10827: 10827 + 125 = "
+2,agent,s3_tool,1,1,1,10982
+2,graph,s3_tool,992,1,1,Observation: 10982 Final Answer: 10982
+2,chain,s4_context_qa,143,0,1,京都
+2,agent,s4_context_qa,149,0,1,京都
+2,graph,s4_context_qa,160,0,1,京都
+2,chain,s5_extract_email,519,0,1,The email address is: info@example.com
+2,agent,s5_extract_email,545,0,1,The email address is: info@example.com
+2,graph,s5_extract_email,429,0,1,Final Answer: info@example.com
+3,chain,s0_format,359,0,1,"{""ok"": true}"
+3,agent,s0_format,382,0,1,"{""ok"": true}"
+3,graph,s0_format,365,0,1,"{""ok"": true}"
+3,chain,s1_reasoning,142,0,1,42
+3,agent,s1_reasoning,1,1,1,42
+3,graph,s1_reasoning,152,0,1,42
+3,chain,s3_tool,5248,0,0,"To calculate the expression, we need to follow the order of operations (PEMDAS):  1. Calculate the exponentiation: 5^3 = 125 2. Multiply 231 by 47: 231 * 47 = 10827 3. Add 125 to 10827: 10827 + 125 = "
+3,agent,s3_tool,3,1,1,10982
+3,graph,s3_tool,989,1,1,Observation: 10982 Final Answer: 10982
+3,chain,s4_context_qa,151,0,1,京都
+3,agent,s4_context_qa,163,0,1,京都
+3,graph,s4_context_qa,158,0,1,京都
+3,chain,s5_extract_email,531,0,1,The email address is: info@example.com
+3,agent,s5_extract_email,535,0,1,The email address is: info@example.com
+3,graph,s5_extract_email,433,0,1,Final Answer: info@example.com
