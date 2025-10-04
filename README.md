@@ -3,6 +3,7 @@
 **実施日**: 2025年10月4日  
 **実験者**: Mr.Kondo  
 **環境**: Google Colab (GPU T4 15.8GB)  
+**環境**: [LLAMA 3.2 COMMUNITY LICENSE AGREEMENT](https://www.llama.com/llama3_2/license/)
 
 **Built with Llama**
 
