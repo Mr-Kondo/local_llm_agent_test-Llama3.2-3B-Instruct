@@ -15,7 +15,7 @@
 ## 2. 実験構成
 
 ### 2.1 モデル仕様
-- **モデル**: meta-llama/Llama-3.2-3B-Instruct[[Hugging Face](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)で使用申請をした後、ダウンロード。）
+- **モデル**: meta-llama/Llama-3.2-3B-Instruct（ [Hugging Face](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)で使用申請をした後、HF_TOKENを使ってダウンロード。）
 - **量子化**: bitsandbytes 4bit NF4
 - **GPU使用量**: 7.53GB (予約8.21GB)
 - **生成パラメータ**: max_new_tokens=256, do_sample=False
