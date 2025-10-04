@@ -1,0 +1,2 @@
+# local_llm_agent_test-Llama3.2-3B-Instruct
+LangChainとLangGraphを使って、単体とAgent機能による出力の差を実験する
