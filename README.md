@@ -1,9 +1,3 @@
-# local_llm_agent_test-Llama3.2-3B-Instruct
-LangChainとLangGraphを使って、単体とAgent機能による出力の差を実験する
-
----
----
-
 # ローカルLLMエージェント性能評価レポート
 
 **実施日**: 2025年10月4日  
